@@ -1,6 +1,6 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:caffemood/FavoriTarfiler.dart';
 import 'package:caffemood/sicak_soguk.dart';
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -29,7 +29,16 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
       backgroundColor: const Color.fromARGB(255, 194, 155, 108),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 109, 66, 49),
-        title: Text(widget.kahveTarifi.tarifAdi),
+        title: TextLiquidFill(
+          text: widget.kahveTarifi.tarifAdi,
+          waveColor: Color.fromARGB(255, 194, 155, 108),
+          loadDuration: Duration(milliseconds: 2250),
+          boxBackgroundColor: Color.fromARGB(255, 109, 66, 49),
+          textStyle: TextStyle(
+            fontSize: 25.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         actions: [
           IconButton(
             icon: Icon(
@@ -57,12 +66,6 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                     height: 350,
                     fit: BoxFit.cover,
                   ),
-                ),
-                SizedBox(height: 16.0),
-                Text(
-                  widget.kahveTarifi.tarifAdi,
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 16.0),
                 Column(
@@ -117,22 +120,18 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                         _launchURL(widget.kahveTarifi.youtubeUrl);
                       },
                       child: Icon(
-                        FontAwesomeIcons
-                            .youtube, // Replace with the desired FontAwesome icon
+                        FontAwesomeIcons.youtube,
                         color: const Color.fromARGB(255, 202, 44, 44),
                         size: 50.0,
                       ),
                     ),
-                    SizedBox(
-                        width:
-                            16.0), // Adjust the spacing between icons as needed
+                    SizedBox(width: 16.0),
                     InkWell(
                       onTap: () {
                         _launchURL(widget.kahveTarifi.spotifyUrl);
                       },
                       child: Icon(
-                        FontAwesomeIcons
-                            .spotify, // Replace with the desired FontAwesome icon
+                        FontAwesomeIcons.spotify,
                         color: Color.fromARGB(255, 22, 187, 31),
                         size: 50.0,
                       ),

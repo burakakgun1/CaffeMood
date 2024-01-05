@@ -12,41 +12,155 @@ class KahveTarifi {
   final double tatlikDerecesi;
 
   KahveTarifi(this.tarifAdi, this.tarifMalzemeler, this.tarifHazirlanis,
-      this.resimPath, this.youtubeUrl, this.spotifyUrl,this.tatlikDerecesi);
+      this.resimPath, this.youtubeUrl, this.spotifyUrl, this.tatlikDerecesi);
 }
 
 class Sicak extends StatelessWidget {
   final List<KahveTarifi> sicakTarifler = [
-    KahveTarifi('Türk Kahvesi', 'Türk Kahvesi', 'a', 'assets/turk-kahvesi.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 1),
+    KahveTarifi(
+        'Türk Kahvesi',
+        '''• 1 tatlı kaşığı kahve
+• 1 fincan su''',
+        '''1. Cezve içerisine ilk önce kahve, sonra isteniyor ise şeker ve üzerine su sıralaması takip edilerek Türk kahvenizi pişirme ön hazırlığını yapın 
+2. Cezveye her fincan için 2 çay kaşığı Türk Kahvesi ve dilediğiniz kadar şeker ekleyin.
+3. Ardından her fincan için 1 Türk kahvesi fincanı soğuk içme suyu koyun.
+4. Kahveyi (ve eklediyseniz şekeri) su ile iyice ıslanacak ve çözünecek şekilde karıştırın.
+5. Cezveyi kısık ateşte üzerinde köpük oluşuncaya kadar kaynama derecesine yaklaşmasını gözleyin.
+6. Kaynamaya başlamadan önce kısık ateşten alarak üst tabakada kabaran kahve köpüğünü fincanlara eşit miktarda pay edin.
+7. Cezvede kalan kahveyi bir taşım daha kaynatın ve sonra fincanlara paylaştırın.''',
+        'assets/turk-kahvesi.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        1),
     KahveTarifi(
         'Caramel Mocha',
-        'Caramel Mocha İçeriği',
-        'a',
+        '''• ¾ fincan kadar önceden demlenmiş taze kahve
+• 5 fincan süt
+• Yarım çay kaşığı tuz
+• 2 tatlı kaşığı şeker
+• Krem şanti
+• 3 yemek kaşığı kadar sıcak çikolata tozu
+• 3 yemek kaşığı kadar karamelli sos''',
+        '''1. Kahveyi demleyerek başlayın. Kahve bir köşede demlensin. Siz de bu sırada süt köpürtücü ile sütü köpürtün. 
+2. Dilerseniz mikrodalgada 1-2 dakika bekleterek de işlemi gerçekleştirebilirsiniz, seçim sizin.
+3. Kahveniz demlendiğine göre sıcak sütü uzun bir bardağa alabilirsiniz.
+4. Sıcak çikolata tozunu, karamel sosun bir kısmını ve tuzu da ilave edin.
+5. Tüm malzemeler birbirine iyice karışsın.
+6. En son ise karışımın en üst kısmına şeker, tuz, karamel sosu ve krem şantiyi ilave edin.''',
         'assets/caramel-mocha.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        5),
+    KahveTarifi(
+        'Espresso',
+        '''• 2 yemek kaşığı kadar espresso için öğütülmüş kahve
+• 1 kupa su
+• 1 adet french press''',
+        '''1. Suyu kaynatın ve kahveyi hazırlamadan önce yaklaşık 30 saniye kadar soğumasına izin verin.
+2. Öğütülmüş kahveyi french press’e yerleştirin.
+3. Normalde kullandığınız iki katı kadar kahve kullanmak tadının sert olmasını sağlayacaktır.
+4. Suyu yavaşça kahvenin üstüne dökün.
+5. Tahta bir kaşık yardımıyla hafifçe üste çıkan kahveyi karıştırın.
+6. 5 dakika boyunca kahvenin suyla buluşmasını bekleyin.
+7. Ardından french press’in presini yavaşça aşağıya doğru ittirin.
+8. Kahve bardağınızın içine yavaş yavaş dökün.''',
+        'assets/espresso.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
         1),
-    KahveTarifi('Espresso', 'Espresso İçeriği', 'a', 'assets/espresso.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 1),
     KahveTarifi(
         'Flat White',
-        'Flat White İçeriği',
-        'a',
+        '''• 1 shot espresso
+• 2 shot buharda ısıtılmış süt''',
+        '''1. Sütü 55-62 °C’de bir süre ısıtın ve kapaklı bir sürahiye boşaltın. Bir köpük tabakası ve pürüzsüz kadifemsi kabarcıklar oluşana kadar sallayın.
+2. Süt köpürürken bir kaşıkla sütün üst kısmındaki mikro kabarcıkları katlayın. Bunun sonucunda içeceğiniz daha yumuşak, kadifemsi bir dokuya sahip olacaktır. İki bileşeni birleştirerek harika Flat White kahveyi servis edin.''',
         'assets/flat-white.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        2),
-    KahveTarifi('Latte', "Latte İçeriği", 'a', 'assets/latte.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist', 'a',5),
-    KahveTarifi('Mocha', 'Mocha İçeriği', 'a', 'assets/mocha.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist', 'a',3),
-    KahveTarifi('Filtre Kahve', 'Filtre Kahve', 'a', 'assets/filtre-kahve.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist', 'a',1),
-    KahveTarifi('Americano', 'Americano', 'a', 'assets/americano.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 5),
-    KahveTarifi('Cappucino', 'Cappucino', 'a', 'assets/cappucino.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 1),
-    KahveTarifi('Pumpkin Spice', 'Pumpkin Spice', 'a', 'assets/pumpkin.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        4),
+    KahveTarifi(
+        'Latte',
+        '''• 20-25 ml espresso
+• 120 ml taze, ısıtılmış ve hafif köpürtülmüş süt''',
+        '''1. Latte yapacağınız bardağa 1 shot espresso ekleyin.
+2. Kahve makineniz ile veya başka bir süt köpürtme ekipmanı ile taze sütü ısıtın ve yoğun olmamasına dikkat ederek bir miktar köpürtün.
+3. Espresso üzerine ısıtıp köpürttüğünüz sütü ilave ettikten sonra servis edebilirsiniz.''',
+        'assets/latte.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        4),
+    KahveTarifi(
+        'Mocha',
+        '''• 1 shot espresso
+•	1 bardak süt
+•	2 yemek kaşığı çikolata sosu
+•	Krem şanti
+•	Çikolata parçacıkları (isteğe bağlı)''',
+        '''1. Çikolata sosunu bardağınıza ekleyin.
+2. 1 ölçü espresso demleyin ve bardağınıza dökün.
+3. Sütü ısıtıp karıştırarak krema kıvamına getirin.
+4. Bardak dolana kadar kremalı sütü bardağa boşaltın.
+5. Krem şantiyi üzerine sıkın ve çikolata parçacıklarını krem şantinin üzerine serpin.''',
+        'assets/mocha.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        5),
+    KahveTarifi(
+        'Filtre Kahve',
+        '''• 1 Tatlı kaşığı granül kahve
+•	1/2 su bardağı süt
+•	1 Su bardağı buz
+•	1 Tatlı kaşığı şeker (Opsiyonel)
+•	1 Tatlı kaşığı tatlandırıcı şurup (Opsiyonel)''',
+        '''1. Dilediğiniz kadar Granül kahveyi 1/4 bardak soğuk suda eritin.
+2. Üstüne bardağın 1/4’ü kadar buz ve kalanına da sütü ekleyin.
+3. Eğer şeker kullanıyorsanız, 1 tatlı kaşığı şeker ekleyin.
+4. Şeker yerine kahvenizde kullanmayı sevdiğiniz aromaları içeren şurupları ekleyin.''',
+        'assets/filtre-kahve.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        1),
+    KahveTarifi(
+        'Americano',
+        '''• 2 shots Espresso
+• 11/4 bardak sıcak su''',
+        '''1. Suyu kaynatın ve kahve bardağınıza dökün.
+2. Demlediğiniz espressoyu bardağa dökün.''',
+        'assets/americano.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        1),
+    KahveTarifi(
+        'Cappucino',
+        '''• 1 shot Espresso
+• 3/4 fincan süt
+• Bir tutam Tarçın veya çikolata parçacıkları (isteğe bağlı)''',
+        '''1. 1 shot espressoyu demleyin.
+2. Sütünüzü köpürtün.
+3. Demlediğiniz espressoyu kahve bardağınıza boşaltın
+4. Sütünüzü köpürtün.
+5. Üzerine tarçın veya çikolata parçacıkları serperek görsel bir şölen yaratabilirsiniz.''',
+        'assets/cappucino.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        3),
+    KahveTarifi(
+        'Pumpkin Spice',
+        '''• 1 yemek kaşığı tarçın
+• 1 çay kaşığı toz zencefil
+• 1/2 çay kaşığı toz karanfil
+• 1/2 çay kaşığı rendelenmiş muskat cevizi
+• 1/2 çay kaşığı yenibahar''',
+        '''1. Orta ateşte, küçük bir sos tavasına aldığınız bal kabağı ezmesi ve pumpkin spice baharat karışımını karıştırarak yaklaşık 2 dakika pişirin.
+2. Karışıma toz şekeri ekleyip baloncuklar çıkarıp şurup kıvamına gelene kadar karıştırarak pişirin.
+3. Sütü vanilya özütü ile birlikte ısıtın. Aşırı kaynatmamaya özen gösterin.
+4. Isıttığınız vanilya özütlü süt ve bal kabağı karışımını blendardan geçirin.
+5. Hazırladığınız espresso ya da herhangi koyu bir kahveyi hazırladığınız karışıma ekleyin.
+6. Bardaklara aldığınız pumpkin spice latte'nin üzerine bir kaşık krema ekleyip pumpkin spice baharat serpiştirin.''',
+        'assets/pumpkin.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        3),
   ];
 
   Sicak({Key? key}) : super(key: key);
@@ -169,7 +283,7 @@ class Sicak extends StatelessWidget {
                   ),
                   SizedBox(height: 16.0),
                   Text(
-                    "Tatlık Derecesi: $tatlikDerecesi",
+                    "Tatlılık Derecesi: $tatlikDerecesi",
                     style: TextStyle(color: Colors.white),
                   ),
                   SizedBox(height: 16.0),
@@ -220,70 +334,151 @@ class Soguk extends StatelessWidget {
   final List<KahveTarifi> sogukTarifler = [
     KahveTarifi(
         'Ice Americano',
-        'Ice Americano İçeriği',
-        'a',
+        '''• 2 shot espresso
+• Soğuk su
+• Buz''',
+        '''1.	Bardağınızı buzla doldurun.
+2. Hazırladığınız espressoyu ekleyin.
+3. Kalan kısma soğuk su ekleyin.''',
         'assets/ice-americano.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        5),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        1),
     KahveTarifi(
         'Ice Latte',
-        '''
-•	1 shot espresso
-•	Köpürtülmüş süt
-•	Buz 
-''',
+        '''• 1 shot espresso
+• Köpürtülmüş süt
+• Buz ''',
         '''1.	Hazırladığınız espressoyu bardağınıza boşaltın.
-2.	Bardağınızın yarısını geçecek kadar köpürtülmüş süt ekleyin ve karıştırın.
-3.	Bardağınızın kalan kısmını buzla doldurun.''',
+2. Bardağınızın yarısını geçecek kadar köpürtülmüş süt ekleyin ve karıştırın.
+3. Bardağınızın kalan kısmını buzla doldurun.''',
         'assets/ice-latte.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
         3),
-    KahveTarifi('Ice Mocha', 'Ice Mocha İçeriği', 'a', 'assets/ice-mocha.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist', 'a',2),
+    KahveTarifi(
+        'Ice Mocha',
+        '''• Yarım paket toz kakao
+•	Yarım çay bardağı espresso
+•	İnce kırılmış beş tane buz küp
+•	1, 5 su bardağı soğuk süt
+•	1 yemek kaşığı çikolata sosu ya da 1 paket çikolata''',
+        '''1. Buzlu Çikolatalı Mocha yaparken ilk olarak süt, kakao ve espresso bir kabın içerisinde karıştırılır. Bunun için kaşık ya da çırpıcı kullanılabilir.
+2. Ayrı bir bardağın içine buz parçaları koyulur ve karışım üzerine ilave edilir.
+3. Paket çikolata kullanılacaksa önce eritilir ve ardından karışımın üzerine koyulur.
+4. Buna alternatif olarak hazır çikolata sosu da tercih edilebilir..
+5. Kahveyi daha lezzetli yapmak adına toz tarçın ya da vanilya da kullanılabilir.''',
+        'assets/ice-mocha.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        5),
     KahveTarifi(
         'Ice Caramel Macchiato',
-        '''Ice Caramel Macchiato''',
-        'a',
+        '''• 2 pompa vanilya şurubu
+• 1 shot espresso
+•	Soğuk süt
+•	Karamel sos
+•	Buz''',
+        '''1. Bardağınıza vanilya şurubunu ekleyin.
+2. Bardağınızın yarısını geçecek kadar soğuk süt ekleyin.
+3. Bardağınızın kalan kısmının yarısına kadar buz ekleyin.
+4. Espressoyu ekleyin.
+5. Bardağınızın üstüne dilediğiniz şekilde karamel sos sıkın.''',
         'assets/ICED-CARAMEL-MACCHIATO.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        5),
     KahveTarifi(
         'Ice Caramel Latte',
-        'Ice Caramel Latte',
-        'a',
+        '''• 3 pompa karamel şurubu
+•	Soğuk süt
+•	1 shot espresso
+•	Buz''',
+        '''1.	Karamel şurubunu bardağınıza ekleyin.
+2. Bardağınızın yarısını geçecek kadar soğuk süt ekleyin.
+3. Hazırladığınız espressoyu ekleyin ve karıştırın.
+4. Bardağınızın kalan kısmına buz ekleyin.''',
         'assets/CARAMEL-ICED-LATTE.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        4),
     KahveTarifi(
-        'Iced White Chocolate Mocha',
-        'Iced White Chocolate Mocha',
-        'a',
+        'Iced White Mocha',
+        '''• 3 pompa beyaz çikolata sosu
+•	1 shot espresso
+•	Köpürtülmüş süt
+•	Buz
+•	Krem şanti''',
+        '''1.	Beyaz çikolata sosunu bardağınıza ekleyin.
+2. 1 shot espresso hazırlayın ve bardağınıza ekleyip karıştırın.
+3. Bardağınızın yarısını geçecek kadar köpürtülmüş süt ekleyin.
+4. Bardağınızın kalan kısmına buz ekleyin.
+5. Bardağınızın üstüne krem şanti sıkın.''',
         'assets/ICED-WHİTE-CHOCOLATE-MOCHA.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        4),
     KahveTarifi(
-        'Naneli Espresso',
-        'Naneli espresso',
-        'a',
+        'Mint Espresso',
+        '''• 1 shot espresso
+•	2 pompa şurup
+•	8 dal nane
+•	Soda''',
+        '''1.	Hazırladığınız espresso ile birlikte şurup ve naneyi shakerda çalkalayın.
+2. Bardağınızın ¾’ünü buzla doldurun.
+3. Shakerda karıştırıdığınız karışımı bardağınıza dökün.
+4. Bardağın kalan kısmını soda ile doldurun.''',
         'assets/naneli-espresso.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        2),
     KahveTarifi(
-        'Tarçınlı Soğuk Kahve',
-        'Tarçınlı Soğuk Kahve',
-        'a',
+        'Iced Cinnamon',
+        '''• Tarçın şurubu
+•	Badem sütü
+•	1 shot espresso
+•	Karamel sos
+•	Toz Tarçın
+•	Buz''',
+        '''1.	Bardağınıza tarçın şurubunu ekleyin
+2. Bardağınızın yarısını geçecek kadar badem sütü ekleyin.
+3. Kalan kısmını yarısına kadar buz ekleyin.
+4. Hazırladığınız espressoyu ekleyin.
+5. Bardağınızın üstüne dilediğiniz şekilde karamel sos sıkın.
+6. Toz tarçın serpin.''',
         'assets/Tarcınlı.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
-    KahveTarifi('Vietnam Kahvesi', 'Vietnam Kahvesi', 'a', 'assets/VIETNAM.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a', 1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        3),
+    KahveTarifi(
+        'Vietnam Coffe',
+        '''• Filtre kahve
+•	2 yemek kaşığı yoğunlaştırılmış süt
+•	Taze nane yaprakları
+•	Buz''',
+        '''1.	Bardağınızı buzla doldurun.
+2. Bardağınızın ¾’ünü hazırladığınız filtre kahve ile doldurun.
+3. Yoğunlaştırılmış sütü ekleyin.
+4. Bardağınızın üstüne taze nane yaprakları ekleyin.''',
+        'assets/VIETNAM.jpg',
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        2),
     KahveTarifi(
         'Vanilla Cold Brew',
-        'Vanilla Cold Brew',
-        'a',
+        '''• 1 pompa vanilya şurubu
+• Cold Brew
+• Soğuk su
+• Tatlı krema''',
+        '''1. Bardağınıza vanilya şurubunu ekleyin.
+2. Hazırladığınız Cold Brew’u bardağınızın yarısını geçmeyecek şekilde ekleyin.
+3. Bardağınızın yarısını geçecek kadar soğuk su ekleyin.
+4. Kalan kısma buzları ekleyin.
+5. Bardağınızın üstüne az bir miktar tatlı krema ekleyin.''',
         'assets/VANILLA-COLD-BREW.jpg',
-        'https://www.example.com/soguk-tarif-2-playlist','a',
-        1),
+        'https://www.youtube.com/',
+        'https://www.spotify.com/',
+        2),
     // Diğer soğuk tarifler...
   ];
 
@@ -402,7 +597,7 @@ class Soguk extends StatelessWidget {
                   ),
                   SizedBox(height: 16.0),
                   Text(
-                    "Tatlık Derecesi: $tatlikDerecesi",
+                    "Tatlılık Derecesi: $tatlikDerecesi",
                     style: TextStyle(color: Colors.white),
                   ),
                   SizedBox(height: 16.0),
