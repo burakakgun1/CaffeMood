@@ -29,8 +29,8 @@ class Sicak extends StatelessWidget {
 6. Kaynamaya başlamadan önce kısık ateşten alarak üst tabakada kabaran kahve köpüğünü fincanlara eşit miktarda pay edin.
 7. Cezvede kalan kahveyi bir taşım daha kaynatın ve sonra fincanlara paylaştırın.''',
         'assets/turk-kahvesi.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdV1u_G1Rj1LRjzmEAmSoRCA',
+        'https://open.spotify.com/playlist/0aWBTlxYUnmcp2zzA8h25c?si=7c217f22b2aa464d&pt=e0829bcd2d56c5c8aff4ded1cdd1ff4c',
         1),
     KahveTarifi(
         'Caramel Mocha',
@@ -48,8 +48,8 @@ class Sicak extends StatelessWidget {
 5. Tüm malzemeler birbirine iyice karışsın.
 6. En son ise karışımın en üst kısmına şeker, tuz, karamel sosu ve krem şantiyi ilave edin.''',
         'assets/caramel-mocha.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         5),
     KahveTarifi(
         'Espresso',
@@ -65,8 +65,8 @@ class Sicak extends StatelessWidget {
 7. Ardından french press’in presini yavaşça aşağıya doğru ittirin.
 8. Kahve bardağınızın içine yavaş yavaş dökün.''',
         'assets/espresso.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdV1u_G1Rj1LRjzmEAmSoRCA',
+        'https://open.spotify.com/playlist/0aWBTlxYUnmcp2zzA8h25c?si=7c217f22b2aa464d&pt=e0829bcd2d56c5c8aff4ded1cdd1ff4c',
         1),
     KahveTarifi(
         'Flat White',
@@ -75,8 +75,8 @@ class Sicak extends StatelessWidget {
         '''1. Sütü 55-62 °C’de bir süre ısıtın ve kapaklı bir sürahiye boşaltın. Bir köpük tabakası ve pürüzsüz kadifemsi kabarcıklar oluşana kadar sallayın.
 2. Süt köpürürken bir kaşıkla sütün üst kısmındaki mikro kabarcıkları katlayın. Bunun sonucunda içeceğiniz daha yumuşak, kadifemsi bir dokuya sahip olacaktır. İki bileşeni birleştirerek harika Flat White kahveyi servis edin.''',
         'assets/flat-white.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         4),
     KahveTarifi(
         'Latte',
@@ -86,8 +86,8 @@ class Sicak extends StatelessWidget {
 2. Kahve makineniz ile veya başka bir süt köpürtme ekipmanı ile taze sütü ısıtın ve yoğun olmamasına dikkat ederek bir miktar köpürtün.
 3. Espresso üzerine ısıtıp köpürttüğünüz sütü ilave ettikten sonra servis edebilirsiniz.''',
         'assets/latte.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         4),
     KahveTarifi(
         'Mocha',
@@ -102,8 +102,8 @@ class Sicak extends StatelessWidget {
 4. Bardak dolana kadar kremalı sütü bardağa boşaltın.
 5. Krem şantiyi üzerine sıkın ve çikolata parçacıklarını krem şantinin üzerine serpin.''',
         'assets/mocha.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         5),
     KahveTarifi(
         'Filtre Kahve',
@@ -117,8 +117,8 @@ class Sicak extends StatelessWidget {
 3. Eğer şeker kullanıyorsanız, 1 tatlı kaşığı şeker ekleyin.
 4. Şeker yerine kahvenizde kullanmayı sevdiğiniz aromaları içeren şurupları ekleyin.''',
         'assets/filtre-kahve.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdV1u_G1Rj1LRjzmEAmSoRCA',
+        'https://open.spotify.com/playlist/0aWBTlxYUnmcp2zzA8h25c?si=7c217f22b2aa464d&pt=e0829bcd2d56c5c8aff4ded1cdd1ff4c',
         1),
     KahveTarifi(
         'Americano',
@@ -127,8 +127,8 @@ class Sicak extends StatelessWidget {
         '''1. Suyu kaynatın ve kahve bardağınıza dökün.
 2. Demlediğiniz espressoyu bardağa dökün.''',
         'assets/americano.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdV1u_G1Rj1LRjzmEAmSoRCA',
+        'https://open.spotify.com/playlist/0aWBTlxYUnmcp2zzA8h25c?si=7c217f22b2aa464d&pt=e0829bcd2d56c5c8aff4ded1cdd1ff4c',
         1),
     KahveTarifi(
         'Cappucino',
@@ -141,8 +141,8 @@ class Sicak extends StatelessWidget {
 4. Sütünüzü köpürtün.
 5. Üzerine tarçın veya çikolata parçacıkları serperek görsel bir şölen yaratabilirsiniz.''',
         'assets/cappucino.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         3),
     KahveTarifi(
         'Pumpkin Spice',
@@ -158,8 +158,8 @@ class Sicak extends StatelessWidget {
 5. Hazırladığınız espresso ya da herhangi koyu bir kahveyi hazırladığınız karışıma ekleyin.
 6. Bardaklara aldığınız pumpkin spice latte'nin üzerine bir kaşık krema ekleyip pumpkin spice baharat serpiştirin.''',
         'assets/pumpkin.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdULL9dsuFpdd7I04t1mwtdk',
+        'https://open.spotify.com/playlist/6YGOExALZhbOurWLIixKiM?si=cc728e020c2d4ecc',
         3),
   ];
 
@@ -341,8 +341,8 @@ class Soguk extends StatelessWidget {
 2. Hazırladığınız espressoyu ekleyin.
 3. Kalan kısma soğuk su ekleyin.''',
         'assets/ice-americano.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdVFkzSWhXex9Vpq_a8wdqq1',
+        'https://open.spotify.com/playlist/03nJvPyZjiDuuVo11bRjHI?si=0568b452ece04ba6',
         1),
     KahveTarifi(
         'Ice Latte',
@@ -353,8 +353,8 @@ class Soguk extends StatelessWidget {
 2. Bardağınızın yarısını geçecek kadar köpürtülmüş süt ekleyin ve karıştırın.
 3. Bardağınızın kalan kısmını buzla doldurun.''',
         'assets/ice-latte.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/6kC8MbfuN22DvkGVKoxAk7?si=2a44d83fa13d471e',
         3),
     KahveTarifi(
         'Ice Mocha',
@@ -369,8 +369,8 @@ class Soguk extends StatelessWidget {
 4. Buna alternatif olarak hazır çikolata sosu da tercih edilebilir..
 5. Kahveyi daha lezzetli yapmak adına toz tarçın ya da vanilya da kullanılabilir.''',
         'assets/ice-mocha.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/03nJvPyZjiDuuVo11bRjHI?si=0568b452ece04ba6',
         5),
     KahveTarifi(
         'Ice Caramel Macchiato',
@@ -385,8 +385,8 @@ class Soguk extends StatelessWidget {
 4. Espressoyu ekleyin.
 5. Bardağınızın üstüne dilediğiniz şekilde karamel sos sıkın.''',
         'assets/ICED-CARAMEL-MACCHIATO.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/03nJvPyZjiDuuVo11bRjHI?si=0568b452ece04ba6',
         5),
     KahveTarifi(
         'Ice Caramel Latte',
@@ -399,8 +399,8 @@ class Soguk extends StatelessWidget {
 3. Hazırladığınız espressoyu ekleyin ve karıştırın.
 4. Bardağınızın kalan kısmına buz ekleyin.''',
         'assets/CARAMEL-ICED-LATTE.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/6kC8MbfuN22DvkGVKoxAk7?si=2a44d83fa13d471e',
         4),
     KahveTarifi(
         'Iced White Mocha',
@@ -415,8 +415,8 @@ class Soguk extends StatelessWidget {
 4. Bardağınızın kalan kısmına buz ekleyin.
 5. Bardağınızın üstüne krem şanti sıkın.''',
         'assets/ICED-WHİTE-CHOCOLATE-MOCHA.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/6kC8MbfuN22DvkGVKoxAk7?si=2a44d83fa13d471e',
         4),
     KahveTarifi(
         'Mint Espresso',
@@ -429,8 +429,8 @@ class Soguk extends StatelessWidget {
 3. Shakerda karıştırıdığınız karışımı bardağınıza dökün.
 4. Bardağın kalan kısmını soda ile doldurun.''',
         'assets/naneli-espresso.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdVFkzSWhXex9Vpq_a8wdqq1',
+        'https://open.spotify.com/playlist/03nJvPyZjiDuuVo11bRjHI?si=0568b452ece04ba6',
         2),
     KahveTarifi(
         'Iced Cinnamon',
@@ -447,8 +447,8 @@ class Soguk extends StatelessWidget {
 5. Bardağınızın üstüne dilediğiniz şekilde karamel sos sıkın.
 6. Toz tarçın serpin.''',
         'assets/Tarcınlı.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/6kC8MbfuN22DvkGVKoxAk7?si=2a44d83fa13d471e',
         3),
     KahveTarifi(
         'Vietnam Coffe',
@@ -461,8 +461,8 @@ class Soguk extends StatelessWidget {
 3. Yoğunlaştırılmış sütü ekleyin.
 4. Bardağınızın üstüne taze nane yaprakları ekleyin.''',
         'assets/VIETNAM.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdVFkzSWhXex9Vpq_a8wdqq1',
+        'https://open.spotify.com/playlist/03nJvPyZjiDuuVo11bRjHI?si=0568b452ece04ba6',
         2),
     KahveTarifi(
         'Vanilla Cold Brew',
@@ -476,8 +476,8 @@ class Soguk extends StatelessWidget {
 4. Kalan kısma buzları ekleyin.
 5. Bardağınızın üstüne az bir miktar tatlı krema ekleyin.''',
         'assets/VANILLA-COLD-BREW.jpg',
-        'https://www.youtube.com/',
-        'https://www.spotify.com/',
+        'https://music.youtube.com/playlist?list=PLTfgHD5YAmdXf0VFXScl5a-BSqYqbDtzt',
+        'https://open.spotify.com/playlist/6kC8MbfuN22DvkGVKoxAk7?si=2a44d83fa13d471e',
         2),
     // Diğer soğuk tarifler...
   ];
