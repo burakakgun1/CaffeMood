@@ -20,6 +20,7 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
   @override
   void initState() {
     super.initState();
+
     favorited = FavoriTarifler.favoriMi(widget.kahveTarifi);
   }
 
@@ -43,8 +44,9 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
           IconButton(
             icon: Icon(
               favorited ? Icons.favorite : Icons.favorite_border,
-              color:
-                  favorited ? const Color.fromARGB(255, 194, 155, 108) : null,
+              color: favorited
+                  ? const Color.fromARGB(255, 194, 155, 108)
+                  : null, 
             ),
             onPressed: () {
               _toggleFavorite(context);
@@ -71,7 +73,7 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Center(
+                    const Center(
                       child: Text(
                         'Malzemeler',
                         style: TextStyle(
@@ -93,7 +95,7 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Center(
+                    const Center(
                       child: Text(
                         'Hazırlanış',
                         style: TextStyle(
@@ -119,9 +121,9 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                       onTap: () {
                         _launchURL(widget.kahveTarifi.youtubeUrl);
                       },
-                      child: Icon(
+                      child: const Icon(
                         FontAwesomeIcons.youtube,
-                        color: const Color.fromARGB(255, 202, 44, 44),
+                        color: Color.fromARGB(255, 255, 255, 255),
                         size: 50.0,
                       ),
                     ),
@@ -132,7 +134,7 @@ class _KahveTarifiSayfasiState extends State<KahveTarifiSayfasi> {
                       },
                       child: Icon(
                         FontAwesomeIcons.spotify,
-                        color: Color.fromARGB(255, 22, 187, 31),
+                        color: Color.fromARGB(255, 255, 255, 255),
                         size: 50.0,
                       ),
                     ),

@@ -10,7 +10,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 4,milliseconds: 30), () {
+    Future.delayed(Duration(seconds: 4, milliseconds: 30), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (context) => Secim()),
       );
@@ -26,17 +26,23 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             // Animasyonlu splash resmi
-            Image.asset(
-              'assets/splash_image.gif',
-              fit: BoxFit.contain,
-            ),
-
+            Image.asset("assets/splash_image.gif"),
             // Metin
-            Text(
+            const Text(
               'CafeeMood',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(
+                  vertical: 24), 
+
+              child: Image.asset(
+                "assets/100.jpg",
+                width: 400, 
+                height: 60,
               ),
             ),
           ],
